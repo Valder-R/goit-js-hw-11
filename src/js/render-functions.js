@@ -9,13 +9,13 @@ export function clearGallery() {
 };
 
 export function createLoader(){
-    const loader = document.querySelector(".load");
-    loader.classList.add("loader")
+    const loader = document.querySelector(".loader");
+    loader.classList.add("load")
 };
 
 export function deleteLoader(){
-    const loader = document.querySelector(".load");
-    loader.classList.remove("loader")
+    const loader = document.querySelector(".loader");
+    loader.classList.remove("load")
 };
 
 export default function addImages(data) {
